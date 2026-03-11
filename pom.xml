@@ -71,7 +71,7 @@
 
 		<dependency>
 			<groupId>javax.xml.bind</groupId>
-			<artifactId>jxb-api</artifactId>
+			<artifactId>jaxb-api</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>com.sun.xml.bind</groupId>
