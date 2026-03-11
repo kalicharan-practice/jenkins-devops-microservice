@@ -36,7 +36,7 @@ pipeline {
             steps {
                 //echo 'Running tests...'
                 //sh 'echo Test step running'
-				sh 'mvn Test'
+				sh 'mvn test'
             }
         }
 
