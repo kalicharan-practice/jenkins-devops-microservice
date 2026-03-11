@@ -72,15 +72,17 @@
 		<dependency>
 			<groupId>javax.xml.bind</groupId>
 			<artifactId>jaxb-api</artifactId>
-		</dependency>
+			<version>2.3.1</version>
+        </dependency>
 		<dependency>
 			<groupId>com.sun.xml.bind</groupId>
 			<artifactId>jaxb-impl</artifactId>
 			<version>2.3.1</version>
 		</dependency>
 		<dependency>
-			<groupId>org.glassfish.jaxb</groupId>
-			<artifactId>jaxb-runtime</artifactId>
+		    <groupId>org.glassfish.jaxb</groupId>
+    		<artifactId>jaxb-runtime</artifactId>
+    		<version>2.3.1</version>
 		</dependency>
 		<dependency>
 			<groupId>javax.activation</groupId>
@@ -100,6 +102,12 @@
 			<version>4.0.0</version>
 			<scope>test</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>com.thoughtworks.xstream</groupId>
+			<artifactId>xstream</artifactId>
+			<version>1.4.20</version>
+		</dependency>
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-spring</artifactId>
@@ -109,13 +117,13 @@
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-java</artifactId>
-			<version>2.3.1</version>
+			<version>4.2.0</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-junit</artifactId>
-			<version>2.3.1</version>
+			<version>4.2.0</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
